@@ -1,0 +1,90 @@
+OOPS Features
+
+1. Inheritance
+2. Polymorphism
+3. Abstraction
+4. Encapsulation
+5. Aggregation
+6. Association
+7. Composition
+8. Static 
+
+------------------------------------------------------------------------------------------
+Static is common to every object of the class. It is bind with the class. It is used to save the memoery
+for eg. Company name can be static for every employees object
+--------------------------------------------------------------------------------------------------------
+Association > Composition > Aggregation
+
+Association - I have a relationship with an object.
+Composition - I own an object and I am responsible for its lifetime. When Foo dies, so does Bar
+Aggregation - I have an object which I've borrowed from someone else. When Foo dies, Bar may live on.
+---------------------------------------------------------------------------------------------------------------
+Inheritance:
+Multiple
+Multilevel
+Single
+Hybrid
+Hierarchical 
+
+===================================================================
+Single Inheritance
+
+Class A
+end
+
+class B extends A
+end
+
+--------------------------------------------------------
+Multiple Inheritance
+
+class A
+end
+
+class B
+end
+
+class C extends A and B
+end
+-------------------------------------------------------------------
+
+Multilevel Inheritance
+
+Class A
+end
+
+class B extends A
+end
+
+class C extends B
+end
+----------------------------------------------------------------------------
+
+Hierarchical Inheritance
+
+Class A
+end
+
+class B extends A
+end
+
+class C extends A
+end
+
+------------------------------------------------------------------------------
+
+Polymorphism: More than many forms
+
+Method Overloading: Different parameters and return type Inheritance
+Method Overriding: Same method in Inheritance
+
+----------------------------------------------------------------------------------
+
+Encapsulation: Wrap code and data together
+
+Access Modifiers: Private, public, protected
+
+Private method even not accessible to Inherited classes
+Protected are only accessible in Inherited class upto single level
+
+-----------------------------------------------------------------------------------------

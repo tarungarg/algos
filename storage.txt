@@ -1,0 +1,13 @@
+locale storage and session storage
+
+if we strore data in cookies, like 2 mb of data then with every request we are sending that data
+localestorage -> it lasts for long. If someone change it's profile and other details, it's important for him to also delete the localestorage.
+
+session cookies -> lasts upto when the browser is open. Shared across different tabs and different windows of browser
+
+Session storage -> it's life upto when tab is open
+
+Storage events -> Cross window messaging using storage events. When we update local storage and session storage it fires an event which make changes in all tabs which are using that storage and event
+
+
+

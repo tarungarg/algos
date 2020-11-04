@@ -1,0 +1,55 @@
+1. Factory Method Pattern
+------------------------------
+Create abstract class and interface and let subclasses to decide which class to intantiate
+
+eg. Electricity Bill
+
+class PlanFactory
+  def getPlan(type)
+    switch type
+      case 'Commercial':
+        new Commercial()
+
+      case 'Domestic':
+        new Domestic()
+      
+      case 'Rural':
+        new Rural()
+
+      default: 
+        raise 'Sorry no type exists'
+  end
+
+end
+
+plan = PlanFactory.new
+
+plan.calculateBill
+
+// abstract class
+class Bill
+  def  calculateBill
+    unnits * self.getRate();
+  end
+
+end
+
+class Comeercial < Bill
+  def getRate
+    7
+  end
+end
+
+class Domestic < Bill
+  def getRate
+    8
+  end
+end
+
+class Rural < Bill
+  def getRate
+    2
+  end
+end
+
+

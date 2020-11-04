@@ -1,0 +1,18 @@
+                                ---------------------\
+                                Google cloud storage
+                                ----------------------\
+
+Structured
+  . Transactional
+      -> Cloud Sql and Cloud Spanner
+  . Analytics
+      -> Big Query and Big Table
+
+Unstructured
+  . Block Storage
+    -> Persistant Disk and Local SSDs
+        -> HDD and SSD
+  . Object Storage
+    -> GCS Buckets
+---------------------------------------------------------------------------
+

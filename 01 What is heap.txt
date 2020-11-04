@@ -1,0 +1,3 @@
+Heap is complete binary tree
+max heap: when all the child elements are less than the root elements
+min heap: when all the child elements are greater than the root element

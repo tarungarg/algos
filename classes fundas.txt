@@ -1,0 +1,60 @@
+Class
+--------------
+class is just a blueprint.
+It includes methods and properties
+class can create an instance and can be inherited
+
+Inhertitance
+-------------------
+It works on is-a and has-a scenario
+like if 'DOG' is-a 'Animal' -> right -> Dog < Animal
+like if 'DOG' is-a 'Cat' -> wrong
+
+DOG has-a height -> Right -> it defines properties
+DOG has-a wooden leg -> wrong -> it does not define properties
+All subclasses have access to methods in parent class
+
+Encapsulation
+-----------------
+If we want to protect our data to be written like
+
+class Dog{
+  wight
+
+  def setWeight(newWeight){
+    weight = newWeight;
+  }
+
+  def getWeight(){
+    return wight
+  }
+}
+
+it includes getter and setter methods to write and get the properties.
+So we encapulate the peroperties
+
+
+Instance and local variable
+-------------------------------
+instance variabe is part of class
+local variable is part of method
+
+
+
+Polymorphism
+---------------
+in case of inheritance, subclasses can overwrite parent method and also create the new one.
+so overwriting the parent method to change its behaviour is Polymorphism
+
+
+Abstact class
+--------------
+Abstact class can not have any object
+Abstact class can only be inherited
+inherited class must have all declaration of methods of abstract class
+
+
+Interfaces
+Interfaces are also abstarct class with abstract methods
+it provides flexiability in design
+

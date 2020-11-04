@@ -1,0 +1,3 @@
+Strategy pattern -> concept of interfaces to provide dynamicity
+Observer Pattern -> create subject and observers
+factory design
